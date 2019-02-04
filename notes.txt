@@ -1,0 +1,8 @@
+Pages :
+- Create campaign (v)
+- My campaign
+- Detail investment
+
+
+Flow conversation :
+- tanya usaha sampingan

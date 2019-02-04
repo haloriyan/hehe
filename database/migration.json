@@ -1,0 +1,42 @@
+{
+	"tabel": {
+		"user": [
+			"iduser int(11)",
+			"name varchar(50)",
+			"email varchar(50)",
+			"password varchar(50)",
+			"photo varchar(155)",
+			"ktp varchar(155)",
+			"status int(1)",
+			"registered int(11)"
+		],
+		"campaign": [
+			"idcampaign int(11)",
+			"iduser int(11)",
+			"title varchar(50)",
+			"description text",
+			"ada_dana int(15)",
+			"butuh_dana int(15)",
+			"dana_terkumpul int(15)",
+			"created_date date",
+			"created int(11)"
+		],
+		"invest": [
+			"idinvest int(11)",
+			"iduser int(11)",
+			"idcampaign int(11)",
+			"nominal int(15)",
+			"added int(11)"
+		]
+	},
+	"atribut": {
+		"primary key": [
+			"user.iduser",
+			"campaign.idcampaign",
+			"invest.idinvest"
+		],
+		"unique key": [
+			"user.email"
+		]	
+	}
+}

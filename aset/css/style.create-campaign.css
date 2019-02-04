@@ -1,0 +1,42 @@
+body {
+	background-color: #ecf0f1;
+}
+form#next { display: none; }
+.container {
+	position: absolute;
+	top: 70px;left: 30%;right: 30%;
+	top: 125px;
+	color: #444;
+	background: none;
+	border-bottom: none;
+}
+.container h1 {
+	font-family: ProBold;
+	color: #fff;
+}
+.container .bagian {
+	background-color: #fff;
+	/*border: 1px solid #ddd;*/
+	box-shadow: 1px 1px 5px 1px #ddd;
+	padding: 1px;
+	border-radius: 6px;
+}
+.container .wrap { margin: 5%; }
+.box {
+	font-size: 17px;
+}
+.bag-5 {
+	width: 49.8%;
+}
+.bag-5 .box { width: 75%; }
+.container button { margin-top: 0px; }
+#deskripsi {
+	border: 1px solid #ddd;
+	border-radius: 6px;
+	min-height: 150px;
+	width: 87%;
+	margin-top: 10px;
+	margin-bottom: 25px;
+	padding: 15px 25px;
+}
+#deskripsi:focus { box-shadow: 1px 1px 5px 1px #2ecc71;outline: none; }

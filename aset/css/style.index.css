@@ -1,0 +1,201 @@
+.atas {
+	position: fixed;
+	top: 0px;left: 0px;right: 0px;
+	background-color: #fff;
+	color: #454545;
+	line-height: 65px;
+	box-shadow: 1px 1px 5px 1px #ddd;
+	z-index: 1;
+}
+.atas .judul {
+	margin: 0;
+	float: left;
+	margin-left: 5%;
+	font-size: 23px;
+	font-family: ProBold;
+}
+.atas .judul span { color: #2ecc71; }
+.atas .menu {
+	float: right;
+	margin-right: 5%;
+}
+.menu li {
+	float: left;
+	list-style: none;
+	padding: 0px 15px;
+	text-align: center;
+	transition: 0.55s;
+	font-size: 15px;
+	cursor: pointer;
+}
+.menu a {
+	text-decoration: none;
+	color: #454545;
+	font-family: ProBold;
+}
+.menu li:hover {
+	color: #27ae60;
+}
+.sub {
+	box-shadow: 1px 1px 5px 1px #ddd;
+	border-radius: 6px;
+	display: none;
+	position: absolute;
+	margin-top: -10px;
+	width: 15%;
+	margin-left: -15%;
+	padding: 20px 25px;
+	background-color: #fff;
+}
+.sub .cat {
+	float: left;
+	width: 160px;
+	height: 100px;
+	margin-bottom: 35px;
+}
+.sub .cat img {
+	width: 60px;
+	height: 60px;
+}
+.sub h4 {
+	margin-top: -20px;
+	line-height: 30px;
+}
+.sub li {
+	float: none;
+	margin-left: 0;
+	padding: 0;
+	line-height: 45px;
+	font-family: ProReg;
+	text-align: left !important;
+}
+.sub li:hover {
+	color: #27ae60;
+	font-family: ProBold;
+}
+.menu li:hover .sub { display: block; }
+.atas .menu a {
+	text-decoration: none;
+	color: #2ecc71;
+	font-family: ProBold;
+}
+
+.container {
+	position: absolute;
+	top: 200px;left: 50%;right: 5%;
+	text-align: center;
+	color: #666;
+	font-family: ProReg;
+}
+.container h2 {
+	font-size: 35px;
+	line-height: 50px;
+	font-family: ProBold;
+}
+.container p {
+	font-size: 24px;
+	font-family: ProLight;;
+	margin-top: 0px;
+	line-height: 40px;
+	width: 80%;
+	display: inline-block;
+	display: none;
+}
+.container #cta {
+	width: 321px;
+	height: 60px;
+	border: none;
+	font-size: 20px;
+	font-family: ProBold;
+	border-radius: 90px;
+	cursor: pointer;
+	transition: 0.4s;
+	margin-top: 20px;
+}
+.container #more {
+	background: none;
+	border: none;
+	height: 50px;
+	font-size: 20px;
+	color: #2ecc71;
+	font-family: ProBold;
+	margin-top: 35px;
+	cursor: pointer;
+}
+
+.illustration {
+	position: absolute;
+	top: 130px;left: 0px;width: 50%;
+	height: 360px;
+	background: url(../img/launching.png);
+	background-size: cover
+}
+
+.bawah {
+	position: absolute;
+	top: 86%;left: 0px;right: 0px;
+	color: #454545;
+}
+.bagian {
+	margin-bottom: 70px;
+}
+.bagian p {
+	font-size: 20px;
+	font-family: ProReg;
+	line-height: 40px;
+}
+.bagian h3 {
+	font-family: ProBold;
+	font-size: 25px;
+}
+.bawah #about p {
+	margin-top: 0px;
+	width: 60%;
+	display: inline-block;
+}
+.bawah #about h3 span { color: #2ecc71; }
+.bawah button {
+	border-radius: 125px;
+}
+
+#how .cara {
+	display: inline-block;
+	width: 300px;
+	height: 200px;
+	background: url(../img/register.png);
+	background-size: cover;
+}
+#how .cara:nth-child(3) {
+	background: url(../img/createCampaign.png);
+	background-size: cover;
+}
+#how .cara:nth-child(4) {
+	background: url(../img/deal.png);
+	background-size: cover;
+}
+#how .cara div {
+	margin-top: 250px;
+	font-family: ProBold;
+	color: #2ecc71;
+	font-size: 20px;
+}
+
+.bawah footer {
+	background-color: #27ae60;
+	color: #fff;
+	font-family: ProReg;
+}
+.bawah footer a {
+	text-decoration: none;
+	color: #eee;
+}
+.bawah footer li {
+	list-style: none;
+	line-height: 45px;
+	font-size: 18px;
+}
+.bawah footer .bag-3 { width: 33.3%; }
+.bawah footer .wrap { margin: 10%; }
+.bawah footer h3 {
+	font-family: ProBold;
+}
